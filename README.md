@@ -11,6 +11,7 @@ processo.
 baixa da memória (primeira página), as outras iniciam onde terminou a última. Usa-se uma
 lista circular para permitir que, eventualmente, toda a memória seja percorrida. 
 
+ https://prepinsta.com/operating-systems/page-replacement-algorithms/worst-fit/worst-fit-in-c/
 
 
 
