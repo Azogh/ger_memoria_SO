@@ -1,6 +1,21 @@
 # Ger-ncia-de-mem-ria---SO
 Trabalho de Sistemas Operacionais - Carecão
 
+first-fit: inicia a procura a partir da primeira página de memória (parte baixa) e vai
+varrendo a memória até encontrar a primeira lacuna suficientemente grande para armazenar
+o processo.
+2. best-fit: varre toda a memória e escolhe a página mais ajustada ao tamanho do processo.
+3. worst-fit: varre toda a memória e escolhe a página menos ajustada ao tamanho do
+processo.
+4. next-fit: segue a mesma idéia do first-fit, mas somente a primeira busca é iniciada na parte
+baixa da memória (primeira página), as outras iniciam onde terminou a última. Usa-se uma
+lista circular para permitir que, eventualmente, toda a memória seja percorrida. 
+
+
+
+
+
+
 #include 
 
 struct Nodo {
